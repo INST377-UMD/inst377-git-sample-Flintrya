@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+
+        <style>
+            body {
+                background-color: cornsilk;
+            }
+
+            .contactUs {
+                background-color: whitesmoke;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-right: 150px;
+                margin-left: 80px;
+            }
+
+            input {
+                background-color: rgb(143, 170, 23);
+                color: white;
+            }
+
+            #inquiryDate {
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>INST377 - Lab 2 - Contact Me</h1>
+        <!-- Name Fields -->
+        <form name="contactForm" method="get" action = "INST377-WEEK2-LAB2-PAGE2.html">
+            <div class="contactUs">
+                <label for="name">Name: </label>
+                <input type="text" id="name" required>
+                <br>
+                <label for="email">What is the best email to reach you?</label>
+                <input type="email" id="email" placeholder="test@gmail.com" required>
+                <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
